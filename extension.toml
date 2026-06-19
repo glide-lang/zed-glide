@@ -1,7 +1,7 @@
 id            = "glide"
 name          = "Glide"
 description   = "Glide language support"
-version       = "0.3.2"
+version       = "0.4.1"
 schema_version = 1
 authors       = ["Murillo Deolino <Murilinho145SG>"]
 repository    = "https://github.com/glide-lang/Glide"
@@ -16,7 +16,10 @@ languages = ["Glide"]
 
 [grammars.glide]
 repository = "https://github.com/glide-lang/Glide"
-commit     = "5354269b9d44f697d683c4ed0516300aac45236e"
+# Current grammar (tuple syntax + correct `fn new` / contextual-keyword parsing).
+# Already on origin/main; bump to the 0.4.1 release commit if the grammar
+# changes again before publishing.
+commit     = "94d0f1e7c0b9a8b04492190bd7507dd3569875fd"
 path       = "glide-grammar"
 
 [slash_commands.glide-routes]
