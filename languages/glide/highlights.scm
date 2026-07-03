@@ -208,8 +208,3 @@
   "$" @punctuation.special
   "*" @punctuation.special)
 
-; The `self` receiver / value — one builtin colour everywhere, so `&self`,
-; `self.field` and a bare `self` don't drift between the parameter and
-; variable hues. Placed last so it wins over the generic identifier rules.
-((identifier) @variable.parameter
-  (#eq? @variable.parameter "self"))
