@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.2
+
+- Highlight the `self` receiver/value as a builtin variable everywhere, so it
+  no longer drifts between the parameter and variable colours across `&self`,
+  `self.field`, and a bare `self`.
+
+
 ## 0.4.1
 
 Aligned with the Glide 0.4.1 compiler.

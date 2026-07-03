@@ -1,7 +1,7 @@
 id            = "glide"
 name          = "Glide"
 description   = "Glide language support"
-version       = "0.4.1"
+version       = "0.4.2"
 schema_version = 1
 authors       = ["Murillo Deolino <Murilinho145SG>"]
 repository    = "https://github.com/glide-lang/Glide"
